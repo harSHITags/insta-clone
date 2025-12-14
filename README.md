@@ -1,36 +1,80 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+Insta Clone – Task Submission
+Project Overview
 
-First, run the development server:
+This project is a web-based social media application developed as part of a company-assigned task.
+The application demonstrates the implementation of a modern frontend architecture using Next.js and TypeScript, with a focus on clean structure, scalability, and maintainable code.
 
-```bash
+The project includes multiple application routes, reusable components, and a modular folder structure aligned with industry practices.
+
+Features Implemented
+
+Modular and scalable project structure
+
+Multiple application pages using Next.js App Router
+
+Reusable UI components
+
+Responsive layout
+
+Configuration for modern tooling and linting
+
+Clean separation of concerns (app, components, utilities)
+
+Tech Stack
+
+Framework: Next.js
+
+Language: TypeScript
+
+Styling: CSS / Tailwind-compatible setup
+
+Package Manager: npm
+
+Version Control: Git & GitHub
+
+Project Structure
+insta-clone/
+├── app/                # Application routes and layouts
+├── components/         # Reusable UI components
+├── lib/                # Utility functions and helpers
+├── public/             # Static assets
+├── scripts/            # Supporting scripts
+├── .gitignore
+├── next.config.ts
+├── package.json
+├── tsconfig.json
+└── README.md
+
+Setup Instructions
+1. Clone the Repository
+git clone https://github.com/harSHITags/insta-clone.git
+
+2. Navigate to the Project Directory
+cd insta-clone
+
+3. Install Dependencies
+npm install
+
+4. Run the Development Server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The application will run locally at:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+http://localhost:3000
 
-## Learn More
+Notes
 
-To learn more about Next.js, take a look at the following resources:
+This project was developed as part of a company evaluation task.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The focus was on code quality, structure, and correct usage of the framework.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Additional features and integrations can be extended as required.
 
-## Deploy on Vercel
+Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Harshita Rathore
+B.Tech Computer Science
+GitHub: https://github.com/harSHITags
